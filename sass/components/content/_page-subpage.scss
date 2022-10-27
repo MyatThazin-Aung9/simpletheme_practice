@@ -1,0 +1,21 @@
+// for lower pages mv common
+.sl {
+    &-mv {
+        &-inn {
+            &-ttl {
+
+            }
+        }
+    }
+}
+
+// for other lower pages
+.sl {
+    &-subpage-name {
+        &-inn {
+            &-content {
+
+            }
+        }
+    }
+}
