@@ -181,12 +181,14 @@ img {
         font-family: "Ostrich Sans",sans-serif;
         position: absolute;
         top: -18%;
-        left: 5%; }
+        left: 22px; }
       .l-mv-inn-content .news-inn-content {
         position: absolute;
         bottom: 20%;
         left: 10%; }
         .l-mv-inn-content .news-inn-content ul li {
           padding: 0 0 28px 0; }
+          .l-mv-inn-content .news-inn-content ul li span {
+            padding-left: 30px; }
 
 /*# sourceMappingURL=style.min.css.map */

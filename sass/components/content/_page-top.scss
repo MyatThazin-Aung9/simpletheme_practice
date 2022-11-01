@@ -22,7 +22,7 @@
                                 font-family: "Ostrich Sans",sans-serif;
                                 position: absolute;
                                 top: -18%;
-                                left: 5%;
+                                left: 22px;
                             }
                         }
                         &-content{
@@ -32,6 +32,24 @@
                             ul{
                                 li{
                                     padding: 0 0 28px 0;
+                                    // &::after{
+                                    //     content: "";
+                                    //     position: absolute;
+                                    //     top: 0;
+                                    //     bottom: 0;
+                                    //     // right: 24px;
+                                    //     margin: auto;
+                                    //     width: 6px;
+                                    //     height: 6px;
+                                    //     border-top: 2px solid #013C87;
+                                    //     border-right: 2px solid #013C87;
+                                    //     -webkit-transform: rotate(45deg);
+                                    //     transform: rotate(45deg);
+                                    //     z-index: 1;
+                                    // }
+                                    span{
+                                        padding-left: 30px;
+                                    }
                                 }
                             }
                         }
