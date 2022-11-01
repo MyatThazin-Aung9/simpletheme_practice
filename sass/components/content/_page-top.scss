@@ -1,9 +1,42 @@
 
-.sl {
+.l {
     &-mv {
+        background: #EDF7FD;
         &-inn {
-            &-ttl {
-
+            &-content{
+                background:#EDF7FD;
+                .news{
+                    background: #fff;
+                    width: 100%;
+                    max-width: 544px;
+                    border-radius: 10px;
+                    position: relative;
+                    top: -30px;
+                    right: -61%;
+                    height: 267px;
+                    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.06);
+                    &-inn{
+                        &-ttl{
+                            h2{
+                                font-size: 100px;
+                                font-family: "Ostrich Sans",sans-serif;
+                                position: absolute;
+                                top: -18%;
+                                left: 5%;
+                            }
+                        }
+                        &-content{
+                            position: absolute;
+                            bottom: 20%;
+                            left: 10%;
+                            ul{
+                                li{
+                                    padding: 0 0 28px 0;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
