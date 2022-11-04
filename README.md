@@ -1,1 +1,1 @@
-# pikapika
+# Simpletheme_practice
